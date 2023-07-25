@@ -9,7 +9,8 @@
     "./tsconfig.json"
   ],
   "scripts": {
-    "format": "prettier --write \"**/*.{js,json,md,ts,tsx}\""
+    "format": "prettier --check \"**/*.{js,json,md,ts,tsx}\"",
+    "format:fix": "prettier --write \"**/*.{js,json,md,ts,tsx}\""
   },
   "devDependencies": {
     "@forcir/prettier-config": "1.0.0",
