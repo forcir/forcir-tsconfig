@@ -1,6 +1,6 @@
 {
     "name": "@forcir/tsconfig",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "private": false,
     "license": "MIT",
     "type": "module",
@@ -9,12 +9,12 @@
         "./tsconfig.json"
     ],
     "scripts": {
-        "format": "prettier --check \"**/*.{js,json,md,ts,tsx}\"",
-        "format:fix": "prettier --write \"**/*.{js,json,md,ts,tsx}\""
+        "format": "prettier --check \"**/*.{cjs,js,json,md,ts,tsx}\"",
+        "format:fix": "prettier --write \"**/*.{cjs,js,json,md,ts,tsx}\""
     },
     "devDependencies": {
         "@forcir/prettier-config": "1.0.0",
         "prettier": "3.0.0"
     },
-    "packageManager": "pnpm@8.6.10"
+    "packageManager": "pnpm@8.6.11"
 }
