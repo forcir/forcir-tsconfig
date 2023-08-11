@@ -14,7 +14,7 @@
         "format:fix": "prettier --write \"**/*.{cjs,js,json,md,ts,tsx}\""
     },
     "devDependencies": {
-        "@forcir/prettier-config": "1.0.0",
+        "@forcir/prettier-config": "1.0.2",
         "prettier": "3.0.1"
     },
     "packageManager": "pnpm@8.6.11"
