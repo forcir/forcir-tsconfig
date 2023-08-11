@@ -1,7 +1,8 @@
 {
     "name": "@forcir/tsconfig",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "private": false,
+    "description": "Shared configuration for a consistent experience using TypeScript.",
     "license": "MIT",
     "type": "module",
     "main": "./tsconfig.json",
