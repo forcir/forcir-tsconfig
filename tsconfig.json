@@ -26,6 +26,7 @@
         "noFallthroughCasesInSwitch": true,
         "noUncheckedIndexedAccess": true,
         "noPropertyAccessFromIndexSignature": false,
+        "noErrorTruncation": true,
         "noEmitOnError": true,
         "skipLibCheck": true,
         "useDefineForClassFields": true,
